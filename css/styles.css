@@ -907,7 +907,7 @@ input:focus {
 
 @media(max-width: 576px){
     .search_content h1 {
-        font-size: 30px;
+        font-size: 40px;
         line-height: 1.5;
     }
     .search_content h4 {
