@@ -44,7 +44,9 @@ body {
 
 .navbar-nav .nav-item:active {}
 
-.nav-link i {}
+.nav-link i {
+    margin-right: 5px;
+}
 
 .nav-link span {}
 
@@ -751,6 +753,12 @@ input:focus {
 }
 
 @media(max-width: 992px) {
+    .navbar-nav {
+        align-items: center;
+        text-align: start;
+        align-items: start;
+        padding: 0px 10px;
+    }
     .companies_container {
         display: grid;
         grid-template-columns: repeat(2, 4fr);
@@ -806,6 +814,10 @@ input:focus {
         border-top: none;
         border-left: none;
         height: 6rem;
+    }
+    .navbar-nav .nav-item .nav-link img {
+        max-height: 30px;
+        width: 100%;
     }
 }
 

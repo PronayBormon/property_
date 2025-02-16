@@ -22,7 +22,7 @@
   <!-- navbar part start here  -->
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid py-0 ps-0" style="justify-content: space-between;">
-      <div class="menu_part ps-3">
+      <div class="menu_part ps-3 d-none d-lg-block">
         <a class=" d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           <i class="fa-regular fa-bars-sort"></i>
           <span>Menu</span>
@@ -33,10 +33,65 @@
         </ul>
       </div>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <!-- offcanvas button  -->
+      <div class="menu_part d-lg-none">
+        <a class=" d-flex align-items-center" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+          <i class="fa-regular fa-bars-sort"></i>
+        </a>
+      </div>
+
+      <!-- Mobile Menu offcanvas  -->
+      <div class="offcanvas offcanvas-start d-lg-none" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title px-3" id="offcanvasScrollingLabel"><img src="./images/logo.png" alt="" class="img-fluid"></h5>
+
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        
+        <hr>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link signbtn" href="#">Sign In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link signbtn" href="#">Sign up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link signbtn" href="#">Add Property</a>
+            </li>
+          </ul>
+          <hr>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link signbtn" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Language</a>
+              <div class="collapse" id="collapseExample">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">English</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Spanish</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link signbtn" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link signbtn" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- End Mobile Menu  -->
+
+      <ul class="navbar-nav d-lg-none m-auto mb-2 mb-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"><img src="/images/logo.png" alt="" class="img-fluid"></a>
+        </li>
+      </ul>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav nav_menu me-auto mb-2 mb-lg-0">
@@ -54,7 +109,7 @@
           </li>
         </ul>
 
-        <ul class="navbar-nav m-auto mb-2 mb-lg-0 d-xl-block d-none">
+        <ul class="navbar-nav d-none d-lg-block m-auto mb-2 mb-lg-0 ">
           <li class="nav-item">
             <a class="nav-link" href="index.html"><img src="/images/logo.png" alt="" class="img-fluid"></a>
           </li>
