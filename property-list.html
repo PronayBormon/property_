@@ -1,0 +1,713 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Appertment</title>
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- fontawesome pro 6 -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <!-- animation -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- default css  -->
+    <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body>
+
+    <!-- navbar part start here  -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid py-0 ps-0" style="justify-content: space-between;">
+            <div class="menu_part ps-3 d-none d-lg-block">
+                <a class=" d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="fa-regular fa-bars-sort"></i>
+                    <span>Menu</span>
+                </a>
+                <ul class="dropdown-menu ms-2 rounded-0">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+            </div>
+
+            <!-- offcanvas button  -->
+            <div class="menu_part d-lg-none">
+                <a class=" d-flex align-items-center" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                    aria-controls="offcanvasScrolling">
+                    <i class="fa-regular fa-bars-sort"></i>
+                </a>
+            </div>
+
+            <!-- Mobile Menu offcanvas  -->
+            <div class="offcanvas offcanvas-start d-lg-none" data-bs-scroll="true" data-bs-backdrop="false"
+                tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title px-3" id="offcanvasScrollingLabel"><img src="./images/logo.png" alt=""
+                            class="img-fluid"></h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <hr>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link signbtn" href="#">Sign In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link signbtn" href="#">Sign up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link signbtn" href="#">Add Property</a>
+                        </li>
+                    </ul>
+                    <hr>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link signbtn" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">Language</a>
+                            <div class="collapse" id="collapseExample">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">English</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Spanish</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link signbtn" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link signbtn" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Mobile Menu  -->
+
+            <ul class="navbar-nav d-lg-none m-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><img src="./images/logo.png" alt="" class="img-fluid"></a>
+                </li>
+            </ul>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav_menu me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-regular fa-globe"></i>
+                                <span>English</span>
+                            </div>
+                        </a>
+                        <ul class="dropdown-menu rounded-0">
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">Spanish</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav d-none d-lg-block m-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><img src="/images/logo.png" alt="" class="img-fluid"></a>
+                    </li>
+                </ul>
+
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link signbtn" href="#">Sign up/ Sign in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-secondary" href="#">Add Property</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- navbar part end  here 3 -->
+
+    <!-- ad section start here  -->
+    <section class="ads_sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 m-auto">
+                    <div class="ads_container">
+                        <img src="./images/web_leaderboard_970x250.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ad section end here  -->
+
+    <!-- filter secion start here  -->
+    <section class="post_filter">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- filter for mobile  -->
+                    <div class="mb_filter d-lg-none">
+                        <div class="mb_search">
+                            <i class="fa-solid fa-search"></i>
+                            <input type="text" placeholder="Enter location" class="form-control search_input">
+                        </div>
+                        <div class="filters_buttons">
+                            <button type="button" class="btn_filter" data-bs-toggle="offcanvas" data-bs-target="#rent"
+                                aria-controls="rent"><span>Rent</span><i class="fa-solid fa-chevron-down"></i></button>
+                            <button type="button" class="btn_filter" data-bs-toggle="offcanvas" data-bs-target="#Type"
+                                aria-controls="rent"><span>All Residential</span><i
+                                    class="fa-solid fa-chevron-down"></i></button>
+                            <button type="button" class="btn_filter" data-bs-toggle="offcanvas" data-bs-target="#price"
+                                aria-controls="rent"><span>Price Range</span> <i
+                                    class="fa-solid fa-chevron-down"></i></button>
+                            <button type="button" class="btn_filter" data-bs-toggle="offcanvas" data-bs-target="#beds"
+                                aria-controls="rent"><span>Beds</span> <i class="fa-solid fa-chevron-down"></i></button>
+                        </div>
+                    </div>
+                    <!-- Filter for mobile end  -->
+                    <!-- filter for pc  -->
+                    <div class="d-none d-lg-block">
+                        <div class="filter_container pc_filter">
+                            <!-- Purpose -->
+                            <div class="porpuse">
+                                <div class="c_dropdown">
+                                    <div class="input-group">
+                                        <label for="">Purpose</label>
+                                        <select name="Purpose" id="">
+                                            <option value="rent">Rent</option>
+                                            <option value="buy">Buy</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Purpose end-->
+
+                            <!-- Location start here  -->
+                            <div class="f_location">
+                                <div class="input-group">
+                                    <label for="">Purpose</label>
+                                    <input type="text" placeholder="Search Location">
+                                    <ul class="location_list">
+                                        <li><a href="#">Dhaka</a> </li>
+                                        <li><a href="#">Gulshan</a> </li>
+                                        <li><a href="#">Banani</a> </li>
+                                        <li><a href="#">Mohakhali</a> </li>
+                                        <li><a href="#">Badda</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- location end here  -->
+
+                            <!-- Property type  -->
+                            <div class="property_type">
+                                <div class="input-group">
+                                    <label for="">Property Type</label>
+                                    <select name="" id="">
+                                        <option value="">Residential</option>
+                                        <option value="">Commercial</option>
+                                        <option value="">Office Space</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- Property type end  -->
+
+                            <!-- price range start  -->
+                            <div class="price_range">
+                                <div class="title_box">
+                                    <div class="filter_title">
+                                        <h6>Price Rnage</h6>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </div>
+                                    <p>Any</p>
+                                </div>
+                                <div class="filter_input">
+                                    <div class="filter_body">
+                                        <div class="input-group me-1">
+                                            <label for="">From</label>
+                                            <input type="text" placeholder="0" class="form-control">
+                                        </div>
+                                        <div class="input-group ms-1">
+                                            <label for="">Upto</label>
+                                            <input type="text" placeholder="any" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="filter_footer">
+                                        <button class="btn btn-default">Clear</button>
+                                        <button class="btn btn-primary">Show</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- price range end  -->
+
+                            <!-- beds start  -->
+                            <div class="filter_beds">
+                                <label for="">Beds</label>
+                                <select name="" id="">
+                                    <option value="">Studio</option>
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option>
+                                    <option value="">5</option>
+                                    <option value="">6</option>
+                                    <option value="">7</option>
+                                    <option value="">8</option>
+                                </select>
+                            </div>
+                            <!-- beds end  -->
+
+                            <!-- filters button  -->
+                            <div class="filters_btns">
+                                <button class="btn btn-primary">Apply Filters</button>
+                            </div>
+                            <!-- filters buttons end  -->
+                        </div>
+                    </div>
+                    <!-- filter for pc end  -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- filter section end here  -->
+
+    <!-- page breadcams section star here  -->
+    <section class="breadCams my-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">All property list</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- page breadcams section end here  -->
+
+    <!-- 2nd filter seciton start here  -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-9">
+                <h5>Properties for rent (2,000)</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="mb_filter" style="max-width: 60%;">
+                        <div class="filters_buttons">
+                            <button type="button" class="btn_filter active"><span>All</span></button>
+                            <button type="button" class="btn_filter"><span>Furnished</span></button>
+                            <button type="button" class="btn_filter"><span>Unfurnished</span></button>
+                        </div>
+                    </div>
+                    <div class="d-md-flex justify-content-beteen align-items-center">
+                        <h6 class="m-0 me-2 text-nowrap ps-2">Short by:</h6>
+                        <select name="" id="" class="form-control" style="min-width: 80px;">
+                            <option value="">Accending</option>
+                            <option value="">Descending</option>
+                            <option value="" selected>Newest</option>
+                            <option value="">Oldest</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 2nd filter seciton end here  -->
+
+    <!-- Product list section start here  -->
+    <section class="porduct_list">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="post_list_container">
+                        <div class="post_box" class="details_link">
+                            
+                            <div class="swiper imageSlider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="./images/widget_advertise_your_rental_1407.png" alt=""
+                                            class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./images/widget_advertise_your_rental_1407.png" alt=""
+                                            class="img-fluid">
+                                    </div>
+                                </div>
+                                <!-- ===============  -->
+                                <span class="v_badge"><i class="fa-regular fa-check-circle"></i> Verified</span>
+                                <button type="button" class="btn_fav btn btn-primary active"><i class="fa-solid fa-heart"></i></button>
+                                <strong class="img_count"><i class="fa-solid fa-image"></i> 1/5</strong>
+                                <!-- =============== -->
+
+
+                                <div class="swiper-button-next small_nxt"></div>
+                                <div class="swiper-button-prev small_prev"></div>
+                                <div class="swiper-pagination small_dot"></div>
+                            </div>
+                            <div class="post_details">
+                                <span class="premium">Premium</span>
+                                <a href="#">
+                                    <h1>2,00,000TK <span>Monthly</span></h1>
+                                    <h2>Apartment</h2>
+                                    <div class="details_feature">
+                                        <ol>
+                                            <li>
+                                                <i class="fa-solid fa-bed"></i>
+                                                <span>2 Beds</span>
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-bath"></i>
+                                                <span>2 Baths</span>
+                                            </li>
+                                            <li>
+                                                <i class="fa-sharp fa-regular fa-building"></i>
+                                                <span>8,000 sqft</span>
+                                            </li>
+                                        </ol>
+                                        <ul>
+                                            <li>Furnished</li>
+                                            <li>Family Oriented</li>
+                                            <li>Modern Community</li>
+                                        </ul>
+                                    </div>
+                                    <div class="details_location">
+                                        <i class="fa-sharp fa-regular fa-location-dot"></i>
+                                        <p>Dhaka, Dhaka Devision, Bangladesh</p>
+                                    </div>
+                                </a>
+                                <div class="contact_buttons">
+                                    <a href="#" class="btn_email">
+                                        <i class="fa-regular fa-envelope"></i>
+                                        <span>Email</span>
+                                    </a>
+                                    <a href="#" class="btn_phone">
+                                        <i class="fa-regular fa-phone"></i>
+                                        <span>Call</span>
+                                    </a>
+                                    <a href="#" class="btn_whatsapp">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <span>WhatsApp</span>
+                                    </a>
+                                    <img src="./images/image(1).jpg" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="post_box" class="details_link">
+                            <div class="swiper imageSlider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="./images/widget_advertise_your_rental_1407.png" alt=""
+                                            class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./images/widget_advertise_your_rental_1407.png" alt=""
+                                            class="img-fluid">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./images/widget_advertise_your_rental_1407.png" alt=""
+                                            class="img-fluid">
+                                    </div>
+                                </div>
+                                <span class="v_badge"><i class="fa-regular fa-check-circle"></i> Verified</span>
+                                <button type="button" class="btn_fav btn btn-primary"><i class="fa-regular fa-heart"></i></button>
+                                <strong class="img_count"><i class="fa-solid fa-image"></i> 1/5</strong>
+
+                                <div class="swiper-button-next small_nxt"></div>
+                                <div class="swiper-button-prev small_prev"></div>
+                                <div class="swiper-pagination small_dot"></div>
+                            </div>
+                            <div class="post_details">
+                                <span class="premium">Premium</span>
+                                <a href="#">
+                                    <h1>2,00,000TK <span>Monthly</span></h1>
+                                    <h2>Apartment</h2>
+                                    <div class="details_feature">
+                                        <ol>
+                                            <li>
+                                                <i class="fa-solid fa-bed"></i>
+                                                <span>2 Beds</span>
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-bath"></i>
+                                                <span>2 Baths</span>
+                                            </li>
+                                            <li>
+                                                <i class="fa-sharp fa-regular fa-building"></i>
+                                                <span>8,000 sqft</span>
+                                            </li>
+                                        </ol>
+                                        <ul>
+                                            <li>Furnished</li>
+                                            <li>Family Oriented</li>
+                                            <li>Modern Community</li>
+                                        </ul>
+                                    </div>
+                                    <div class="details_location">
+                                        <i class="fa-sharp fa-regular fa-location-dot"></i>
+                                        <p>Dhaka, Dhaka Devision, Bangladesh</p>
+                                    </div>
+                                </a>
+                                <div class="contact_buttons">
+                                    <a href="#" class="btn_email">
+                                        <i class="fa-regular fa-envelope"></i>
+                                        <span>Email</span>
+                                    </a>
+                                    <a href="#" class="btn_phone">
+                                        <i class="fa-regular fa-phone"></i>
+                                        <span>Call</span>
+                                    </a>
+                                    <a href="#" class="btn_whatsapp">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <span>WhatsApp</span>
+                                    </a>
+                                    <img src="./images/image(1).jpg" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product list section end here  -->
+
+
+    <!-- ========================= Offcanvas list ==========================  -->
+
+    <!-- ----- Purpose -------- -->
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="rent" aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Purpose</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body small">
+            <div class="filter_body">
+                <div class="input-group me-1">
+                    <label for="" class="mb-2">Select your property purpose</label>
+                    <select name="" id="" class="form-control rounded-2">
+                        <option value="">Rent</option>
+                        <option value="">Buy</option>
+                    </select>
+                </div>
+            </div>
+            <div class="filter_footer">
+                <button class="btn btn-default">Clear</button>
+                <button class="btn btn-primary">Apply</button>
+            </div>
+        </div>
+    </div>
+    <!-- ----- Property Type -------- -->
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="Type" aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Property Type</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body small">
+            <div class="filter_body">
+                <div class="input-group me-1">
+                    <label for="" class="mb-2">Select your property Property Type</label>
+                    <select name="" id="" class="form-control rounded-2">
+                        <option value="">Residential</option>
+                        <option value="">Commercial</option>
+                        <option value="">Office space</option>
+                    </select>
+                </div>
+            </div>
+            <div class="filter_footer">
+                <button class="btn btn-default">Clear</button>
+                <button class="btn btn-primary">Apply</button>
+            </div>
+        </div>
+    </div>
+    <!-- ----- Price Range -------- -->
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="price" aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Property Type</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body small">
+            <!-- <p>Select your desire price range.</p> -->
+            <div class="filter_body">
+                <div class="input-group me-1">
+                    <label for="">From</label>
+                    <input type="number" placeholder="0" class="form-control">
+                </div>
+                <div class="input-group ms-1">
+                    <label for="">Upto</label>
+                    <input type="number" placeholder="any" class="form-control">
+                </div>
+            </div>
+            <div class="filter_footer">
+                <button class="btn btn-default">Clear</button>
+                <button class="btn btn-primary">Show</button>
+            </div>
+        </div>
+    </div>
+    <!-- ----- beds -------- -->
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="beds" aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Property Type</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body small">
+            <div class="filter_body">
+                <div class="input-group me-1">
+                    <label for="" class="mb-2">Select your desire number of beds</label>
+                    <select name="" id="" class="form-control rounded-2">
+                        <option value="">Studio</option>
+                        <option value="">1</option>
+                        <option value="">2 </option>
+                        <option value="">3 </option>
+                        <option value="">4 </option>
+                        <option value="">5 </option>
+                    </select>
+                </div>
+            </div>
+            <div class="filter_footer">
+                <button class="btn btn-default">Clear</button>
+                <button class="btn btn-primary">Apply</button>
+            </div>
+        </div>
+    </div>
+    <!-- footer section start here  -->
+    <footer class="footer_sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer_content">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="footer_desc">
+                                    <img src="./images/logo.png" alt="" class="wow fadeIn img-fluid footer_logo">
+                                    <p class="wow fadeIn">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Atque fugiat error minima, laborum reprehenderit qui tenetur doloremque
+                                        perspiciatis consequuntur culpa sit pariatur ut, dolor mollitia. Ut illum
+                                        delectus accusantium quis!</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="links_">
+                                    <h6 class="wow fadeIn">Property Type</h6>
+                                    <ul class="wow fadeIn">
+                                        <li>
+                                            <a href="#">Furnished Apartment</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Residential Apartment</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Office Space</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Luxury Apartment</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="links_">
+                                    <h6 class="wow fadeIn">Property Type</h6>
+                                    <ul class="wow fadeIn">
+                                        <li>
+                                            <a href="#">Furnished Apartment</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Residential Apartment</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Office Space</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Luxury Apartment</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="links_">
+                                    <h6 class="wow fadeIn">Contact Us</h6>
+                                    <p class="wow fadeIn">Address: Dhaka, Dhaka Devision, Bangladesh</p>
+                                    <p class="wow fadeIn">Mobile: +880-1900-000-000</p>
+                                    <p class="wow fadeIn">Email: example@mail.com</p>
+
+                                    <ul class="social_links">
+                                        <li class="wow fadeIn">
+                                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        </li>
+                                        <li class="wow fadeIn">
+                                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        </li>
+                                        <li class="wow fadeIn">
+                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        </li>
+                                        <li class="wow fadeIn">
+                                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                        </li>
+                                        <li class="wow fadeIn">
+                                            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                                        </li>
+                                        <li class="wow fadeIn">
+                                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end here  -->
+
+
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script src="/js/wow.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".imageSlider", {
+            cssMode: true,
+            navigation: {
+                nextEl: ".small_nxt",
+                prevEl: ".small_prev",
+            },
+            pagination: {
+                el: ".small_dot",
+            },
+            mousewheel: true,
+            keyboard: true,
+        });
+    </script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".price_range .title_box").click(function () {
+                $(this).siblings(".filter_input").toggleClass("d-block");
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
