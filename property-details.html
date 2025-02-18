@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Appertment</title>
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- fontawesome pro 6 -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <!-- animation -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- default css  -->
+    <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body>
+
+    <!-- navbar part start here  -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid py-0 ps-0" style="justify-content: space-between;">
+            <div class="menu_part ps-3 d-none d-lg-block">
+                <a class=" d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="fa-regular fa-bars-sort"></i>
+                    <span>Menu</span>
+                </a>
+                <ul class="dropdown-menu ms-2 rounded-0">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+            </div>
+
+            <!-- offcanvas button  -->
+            <div class="menu_part d-lg-none">
+                <a class=" d-flex align-items-center" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                    aria-controls="offcanvasScrolling">
+                    <i class="fa-regular fa-bars-sort"></i>
+                </a>
+            </div>
+
+            <!-- Mobile Menu offcanvas  -->
+            <div class="offcanvas offcanvas-start d-lg-none" data-bs-scroll="true" data-bs-backdrop="false"
+                tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title px-3" id="offcanvasScrollingLabel"><img src="./images/logo.png" alt=""
+                            class="img-fluid"></h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <hr>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link signbtn" href="#">Sign In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link signbtn" href="#">Sign up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link signbtn" href="#">Add Property</a>
+                        </li>
+                    </ul>
+                    <hr>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link signbtn" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">Language</a>
+                            <div class="collapse" id="collapseExample">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">English</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Spanish</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link signbtn" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link signbtn" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Mobile Menu  -->
+
+            <ul class="navbar-nav d-lg-none m-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><img src="./images/logo.png" alt="" class="img-fluid"></a>
+                </li>
+            </ul>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav_menu me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-regular fa-globe"></i>
+                                <span>English</span>
+                            </div>
+                        </a>
+                        <ul class="dropdown-menu rounded-0">
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">Spanish</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav d-none d-lg-block m-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><img src="/images/logo.png" alt="" class="img-fluid"></a>
+                    </li>
+                </ul>
+
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link signbtn" href="#">Sign up/ Sign in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-secondary" href="#">Add Property</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- navbar part end  here 3 -->
+
+    <!-- ad section start here  -->
+    <section class="ads_sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 m-auto">
+                    <div class="ads_container">
+                        <img src="./images/web_leaderboard_970x250.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ad section end here  -->
+
+    <!-- image slider section start here  -->
+    <section class="pro_details">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-9">
+                    <!-- pro slider secion -->
+                    <div class="property_slider">
+
+                        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                            class="swiper details_slider2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                                </div>
+                            </div>
+                            <div class="swiper-button-next slider-next"></div>
+                            <div class="swiper-button-prev slider-prev"></div>
+                        </div>
+
+
+                        <div thumbsSlider="" class="swiper details_slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- details section start here  -->
+                    <div class="details_sections_title">
+                        <h1>Sheltech Rebecca</h1>
+                        <p>Residential Apartment</p>
+                        
+                        <div class="details_location">
+                            <i class="fa-sharp fa-regular fa-location-dot"></i>
+                            <p>Dhaka, Dhaka Devision, Bangladesh</p>
+                        </div>
+                    </div>
+                    <!-- overview  -->
+                    <div class="details_card card">
+                        <div class="card-header">
+                            <h1>Overview</h1>
+                            <h6>Property ID: RT7890743234029</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="details_container_sec">
+                                <div>
+                                    <h6>Residential Apartment</h6>
+                                    <p>Property Type</p>
+                                </div>
+                                <div>
+                                    <p><i class="fa-solid fa-bed"></i> 03</p>
+                                    <p>Bedroom</p>
+                                </div>
+                                <div>
+                                    <p><i class="fa-solid fa-shower"></i> 03</p>
+                                    <p>Bathroom</p>
+                                </div>
+                                <div>
+                                    <p><i class="fa-solid fa-car"></i> 01</p>
+                                    <p>Parking</p>
+                                </div>
+                                <div>
+                                    <p><i class="fa-solid fa-building"></i> 4,500</p>
+                                    <p>Sqft</p>
+                                </div>
+                                <div>
+                                    <p><i class="fa-solid fa-calendar"></i> 2025</p>
+                                    <p>Year Build</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Description  -->                     
+                    <div class="details_card card">
+                        <div class="card-header">
+                            <h1>Overview</h1>
+                            <h6>Property ID: RT7890743234029</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="description_sec">
+                                <ul>
+                                    <li><strong>Property Size:</strong> 3905 Sq Ft</li>
+                                    <li><strong>Bed:</strong> 03</li>
+                                    <li><strong>Bath:</strong> 04</li>
+                                    <li><strong>Num Of Balcony:</strong> 03</li>
+                                    <li><strong>Parking:</strong> 02</li>
+                                    <li><strong>Lift:</strong> 02</li>
+                                    <li><strong>Floor:</strong> 2nd</li>
+                                    <li><strong>Unit:</strong> 2B</li>
+                                    <li><strong>Unit Per Floor:</strong> 01</li>
+                                    <li><strong>Total Units:</strong> 10</li>
+                                    <li><strong>Price:</strong> $330,000</li>
+                                    <li><strong>Service Charge:</strong> $20,000</li>
+                                    <li><strong>Year Built:</strong> 2024</li>
+                                    <li><strong>Garage Size:</strong> 240 Sq Ft</li>
+                                    <li><strong>Property Type:</strong> Luxury Apartment</li>
+                                    <li><strong>Property Purpose:</strong> For Rent</li>
+                                    <li><strong>Interior:</strong> Furnished</li>
+                                    <li><strong>Building Registration Type:</strong> Residential</li>
+                                    <li><strong>House Rules:</strong> Basic</li>
+                                    <li><strong>Front Road Size:</strong> 24 Ft</li>
+                                    <li><strong>Common Area:</strong> 250 Sq Ft</li>
+                                    <li><strong>Nearby Landmark:</strong> Road: 68</li>
+                                    <li><strong>Preferred Tenant:</strong> Foreigner</li>
+                                    <li><strong>Gas:</strong> L.P.G</li>
+                                    <li><strong>Servant Room:</strong> Yes</li>
+                                    <li><strong>Servant Washroom:</strong> Yes</li>
+                                    <li><strong>Apartment Facing:</strong> North</li>
+                                    <li><strong>Property ID:</strong> RT 1001028</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- address  -->
+                     
+                     
+                    <div class="details_card card">
+                        <div class="card-header">
+                            <h1>Address</h1>
+                        </div>
+                        <div class="card-body">
+                            <div class="description_sec">
+                                <ul>
+                                    <li><strong>Address:</strong> Road: 4, Banani</li>
+                                    <li><strong>Area:</strong> Residential/Banani</li>
+                                    <li><strong>City:</strong> Dhaka</li>
+                                    <li><strong>Country:</strong> Bangladesh</li>
+                                    <li><strong>Zipcode:</strong> 1213</li>
+                                </ul>
+                            </div>
+                        </div>
+                    <!-- details section end here  -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- image slider section end here  -->
+
+
+    <!-- footer section start here  -->
+    <footer class="footer_sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer_content">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="footer_desc">
+                                    <img src="./images/logo.png" alt="" class="wow fadeIn img-fluid footer_logo">
+                                    <p class="wow fadeIn">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Atque fugiat error minima, laborum reprehenderit qui tenetur doloremque
+                                        perspiciatis consequuntur culpa sit pariatur ut, dolor mollitia. Ut illum
+                                        delectus accusantium quis!</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="links_">
+                                    <h6 class="wow fadeIn">Property Type</h6>
+                                    <ul class="wow fadeIn">
+                                        <li>
+                                            <a href="#">Furnished Apartment</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Residential Apartment</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Office Space</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Luxury Apartment</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="links_">
+                                    <h6 class="wow fadeIn">Property Type</h6>
+                                    <ul class="wow fadeIn">
+                                        <li>
+                                            <a href="#">Furnished Apartment</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Residential Apartment</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Office Space</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Luxury Apartment</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="links_">
+                                    <h6 class="wow fadeIn">Contact Us</h6>
+                                    <p class="wow fadeIn">Address: Dhaka, Dhaka Devision, Bangladesh</p>
+                                    <p class="wow fadeIn">Mobile: +880-1900-000-000</p>
+                                    <p class="wow fadeIn">Email: example@mail.com</p>
+
+                                    <ul class="social_links">
+                                        <li class="wow fadeIn">
+                                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        </li>
+                                        <li class="wow fadeIn">
+                                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        </li>
+                                        <li class="wow fadeIn">
+                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        </li>
+                                        <li class="wow fadeIn">
+                                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                        </li>
+                                        <li class="wow fadeIn">
+                                            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                                        </li>
+                                        <li class="wow fadeIn">
+                                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end here  -->
+
+
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script src="/js/wow.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".details_slider", {
+          loop: true,
+          spaceBetween: 10,
+          slidesPerView: 4,
+          freeMode: true,
+          watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".details_slider2", {
+          loop: true,
+          spaceBetween: 10,
+          navigation: {
+            nextEl: ".slider-next",
+            prevEl: ".slider-prev",
+          },
+          thumbs: {
+            swiper: swiper,
+          },
+        });
+      </script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".price_range .title_box").click(function () {
+                $(this).siblings(".filter_input").toggleClass("d-block");
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
