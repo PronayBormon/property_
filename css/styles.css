@@ -2187,6 +2187,24 @@ input:focus {
     .details_card {
         margin: 0;
     }
+    .post_filter {
+        padding: 0px 10px;
+    }
+    .breadCams {
+        padding: 0px 10px;
+    }
+    .se_filter, .pro_details {
+        padding: 0px 10px;
+    }
+    .porduct_list {
+        padding: 0px 10px;
+    }
+    .breadcrumb{
+        margin-bottom: 0px;
+    }
+    h6, input{
+        font-size: 14px;
+    }
 }
 @media(max-width: 576px){
     .qury_form {
