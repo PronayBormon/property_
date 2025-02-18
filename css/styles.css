@@ -1226,7 +1226,7 @@ input:focus {
 
 /* == mobiel filter == */
 .mb_filter {
-    margin: 20px 0px;
+    margin: 0px;
     scrollbar-width: none;
 }
 
@@ -2221,6 +2221,14 @@ input:focus {
     }
     .slider-next::after,.slider-prev::after {
         font-size: 12px;
+    }
+}
+@media(max-width: 320px){
+    .menu_part {
+        padding: 10px 5px;
+    }
+    .navbar-nav .nav-item .nav-link img {
+        max-height: 25px;
     }
 }
 
