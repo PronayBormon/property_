@@ -947,19 +947,19 @@ input:focus {
 
 .filter_container {
 
-display: flex;
+    display: flex;
 
-border: 1px solid #cdcdcd;
+    border: 1px solid #cdcdcd;
 
-padding: 10px;
+    padding: 10px;
 
-border-radius: 10px;
+    border-radius: 10px;
 
-display: grid;
+    display: grid;
 
-grid-template-columns: repeat(6, 6fr);
+    grid-template-columns: repeat(6, 6fr);
 
-box-shadow: 2px 3px 5px 3px #0000000f;
+    box-shadow: 2px 3px 5px 3px #0000000f;
 }
 
 .porpuse {
@@ -2176,38 +2176,108 @@ input:focus {
     background: var(--primary_color);
     border-color: var(--primary_color);
 }
-.details_sections_title h1 span{
+
+.details_sections_title h1 span {
     font-size: 18px;
     color: var(--primary_color);
 }
-@media(max-width: 768px){
+
+
+
+.description {
+    padding: 0px 40px;
+    margin-bottom: 15px;
+}
+
+.description h1,
+.description h2,
+.description h3,
+.description h4,
+.description h5,
+.description h6,
+.description a {
+    color: var(--primary_color);
+}
+
+.faqs_ {
+
+    background: #0080001a;
+
+    padding: 30px 0px;
+}
+
+.faqs_ .accordion {}
+
+.faqs_ .accordion-item {
+
+    margin-bottom: 10px;
+}
+
+.faqs_ .accordion-header {}
+
+.faqs_ .accordion-button {
+
+    outline: none !important;
+    box-shadow: none;
+}
+
+.faqs_ .accordion-button:focus,
+.faqs_ .accordion-button:active,
+.faqs_ .accordion-button:focus-visible,.accordion-button:not(.collapsed){
+    background-color: #00800030;
+    color: #333;
+}
+
+.faqs_ .accordion-collapse {}
+
+.faqs_ .accordion-body {}
+
+
+
+
+
+@media(max-width: 768px) {
     .description_sec ul {
         grid-template-columns: repeat(1, 2fr);
         margin: 0;
     }
+
     .details_card {
         margin: 0;
     }
+
     .post_filter {
         padding: 0px 10px;
     }
+
     .breadCams {
         padding: 0px 10px;
     }
-    .se_filter, .pro_details {
+
+    .se_filter,
+    .pro_details {
         padding: 0px 10px;
     }
+
     .porduct_list {
         padding: 0px 10px;
     }
-    .breadcrumb{
+
+    .breadcrumb {
         margin-bottom: 0px;
     }
-    h6, input{
+
+    h6,
+    input {
         font-size: 14px;
     }
+
+    .description {
+        padding: 0px 10px;
+    }
 }
-@media(max-width: 576px){
+
+@media(max-width: 576px) {
     .qury_form {
         position: fixed;
         bottom: 0;
@@ -2216,21 +2286,28 @@ input:focus {
         left: 0;
         margin: 0;
     }
-    .slider-next,.slider-prev {
+
+    .slider-next,
+    .slider-prev {
         height: 20px;
         width: 20px;
     }
-    .slider-next::after,.slider-prev::after {
+
+    .slider-next::after,
+    .slider-prev::after {
         font-size: 12px;
     }
+
     .details_sections_title p {
         margin-bottom: 0px;
     }
 }
-@media(max-width: 320px){
+
+@media(max-width: 320px) {
     .menu_part {
         padding: 10px 5px;
     }
+
     .navbar-nav .nav-item .nav-link img {
         max-height: 25px;
     }

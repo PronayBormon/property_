@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Appertment</title>
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- fontawesome pro 6 -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <!-- animation -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- default css  -->
+    <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body>
+
+    <!-- navbar part start here  -->
+    <nav class="wow fadeIn navbar navbar-expand-lg">
+        <div class="container-fluid py-0 ps-0" style="justify-content: space-between;">
+            <div class="menu_part ps-3 d-none d-lg-block">
+                <a class=" d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="fa-regular fa-bars-sort"></i>
+                    <span>Menu</span>
+                </a>
+                <ul class="dropdown-menu ms-2 rounded-0">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+            </div>
+
+            <!-- offcanvas button  -->
+            <div class="menu_part d-lg-none">
+                <a class=" d-flex align-items-center" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                    aria-controls="offcanvasScrolling">
+                    <i class="fa-regular fa-bars-sort"></i>
+                </a>
+            </div>
+
+            <!-- Mobile Menu offcanvas  -->
+            <div class="offcanvas offcanvas-start d-lg-none" data-bs-scroll="true" data-bs-backdrop="false"
+                tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title px-3" id="offcanvasScrollingLabel"><img src="./images/logo.png" alt=""
+                            class="img-fluid"></h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <hr>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link signbtn" href="#">Sign In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link signbtn" href="#">Sign up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link signbtn" href="#">Add Property</a>
+                        </li>
+                    </ul>
+                    <hr>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link signbtn" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">Language</a>
+                            <div class="collapse" id="collapseExample">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">English</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Spanish</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link signbtn" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link signbtn" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Mobile Menu  -->
+
+            <ul class="navbar-nav d-lg-none m-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><img src="./images/logo.png" alt="" class="img-fluid"></a>
+                </li>
+            </ul>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav_menu me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-regular fa-globe"></i>
+                                <span>English</span>
+                            </div>
+                        </a>
+                        <ul class="dropdown-menu rounded-0">
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">Spanish</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav d-none d-lg-block m-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><img src="/images/logo.png" alt="" class="img-fluid"></a>
+                    </li>
+                </ul>
+
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link signbtn" href="#">Sign up/ Sign in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-secondary" href="#">Add Property</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- navbar part end  here 3 -->
+
+    <!-- ad section start here  -->
+    <section class="ads_sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 m-auto">
+                    <div class="ads_container">
+                        <img src="./images/ads/ads-4.png" alt="" class="wow fadeIn img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ad section end here  -->
+
+    <!-- page breadcams section star here  -->
+    <section class="breadCams my-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- page breadcams section end here  -->
+
+    <section class="description">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-10 m-auto">
+                    <div class="contact_container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card contact_border rounded-0" bis_skin_checked="1">
+                                    <div class="card-header bg-white" bis_skin_checked="1">
+                                        <h1 class="text-center">Contact Us</h1>
+                                    </div>
+                                    <div class="card-body" bis_skin_checked="1">
+                                        <form action="https://rents.com.bd/sendhtmlemail" method="POST"
+                                            enctype="multipart/form-data">
+                                            <input type="hidden" name="_token" value="H5ZYPySn0MyuW8uqfPrYgSpiULH7VWBEnJ6UiHsO"
+                                                autocomplete="off">
+                                            <div class="row" bis_skin_checked="1">
+                                                <div class="col-lg-6" bis_skin_checked="1">
+                                                    <label style="font-weight: bold">Name:</label>
+                                                    <input type="text" name="f_name" class="mt-2 form-control"
+                                                        placeholder="Enter Full Name">
+                                                </div>
+                                                <div class="col-lg-6" bis_skin_checked="1">
+                                                    <label style="font-weight: bold">Phone:</label>
+                                                    <input type="number" name="phone" class="mt-2 form-control"
+                                                        placeholder="Enter Phone number" value="880">
+                                                </div>
+                                            </div>
+                                            <div class="mt-2" bis_skin_checked="1">
+                                                <label style="font-weight: bold">Email:</label>
+                                                <input type="text" name="email" class="mt-2 form-control"
+                                                    placeholder="Enter Your Email">
+                                            </div>
+                                            <div class="mt-2" bis_skin_checked="1">
+                                                <label style="font-weight: bold">Message:</label>
+                                                <textarea name="message" class="mt-2 form-control" rows="7"
+                                                    placeholder="Enter Your Message"></textarea>
+                                            </div>
+                                            <div class="contact_submit" bis_skin_checked="1">
+                                                <button type="submit" class="btn btn-primary mt-2">Submit</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div bis_skin_checked="1">
+                                    <h1 class="contact_details">Contact Details</h1>
+                                    <div bis_skin_checked="1">
+                                        Plot: 19 &amp; 20, Road: 113/A, Gulshan-02, Dhaka-1212, Bangladesh.
+                                    </div>
+                                    <div bis_skin_checked="1">
+                                        info@rents.com.bd
+                                    </div>
+                                    <div bis_skin_checked="1">
+                                        01616 191 191
+                                    </div>
+                                    <div class="mt-2" bis_skin_checked="1">
+                                        <h1>Follow Us On</h1>
+                                        <ul class="social_links " style="list-style: none; padding: 0;">
+                                            <li class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                            </li>
+                                            <li class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                            </li>
+                                            <li class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                            </li>
+                                            <li class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                            </li>
+                                            <li class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                                                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                                            </li>
+                                            <li class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="mt-2" bis_skin_checked="1">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1825.5858134508635!2d90.416705!3d23.776902!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c79c9ac2ae69%3A0xb488254a2b03f25a!2sRegus%20-%20Dhaka%2C%20Crystal%20Palace!5e0!3m2!1sen!2sus!4v1690698355866!5m2!1sen!2sus" style="border:0;width:100%;height:250px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer section start here  -->
+    <footer class="footer_sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer_content">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="footer_desc">
+                                    <img src="./images/logo.png" alt="" class="wow fadeIn img-fluid footer_logo">
+                                    <p class="wow fadeIn">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Atque fugiat error minima, laborum reprehenderit qui tenetur doloremque
+                                        perspiciatis consequuntur culpa sit pariatur ut, dolor mollitia. Ut illum
+                                        delectus accusantium quis!</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="links_">
+                                    <h6 class="wow fadeIn">Property Type</h6>
+                                    <ul class="wow fadeIn">
+                                        <li>
+                                            <a href="#">Furnished Apartment</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Residential Apartment</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Office Space</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Luxury Apartment</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="links_">
+                                    <h6 class="wow fadeIn">Important Links</h6>
+                                    <ul class="wow fadeIn">
+                                        <li>
+                                            <a href="about-us.html">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact-us.html">Contact Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="faqs.html">FAQs</a>
+                                        </li>
+                                        <li>
+                                            <a href="terms-condition.html">Terms & Conditions</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="links_">
+                                    <h6 class="wow fadeIn">Contact Us</h6>
+                                    <p class="wow fadeIn">Address: Dhaka, Dhaka Devision, Bangladesh</p>
+                                    <p class="wow fadeIn">Mobile: +880-1900-000-000</p>
+                                    <p class="wow fadeIn">Email: example@mail.com</p>
+
+                                    <ul class="social_links">
+                                        <li class="wow fadeIn">
+                                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        </li>
+                                        <li class="wow fadeIn">
+                                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        </li>
+                                        <li class="wow fadeIn">
+                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        </li>
+                                        <li class="wow fadeIn">
+                                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                        </li>
+                                        <li class="wow fadeIn">
+                                            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                                        </li>
+                                        <li class="wow fadeIn">
+                                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end here  -->
+
+
+    <!-- phone modal  -->
+
+    <div class="modal fade" id="phone_modal" tabindex="-1" aria-labelledby="phone_modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-0">
+                <div class="modal-header align-items-start">
+
+                    <div class="modla_item" style="background-color: #fff; padding: 0;">
+                        <img src="./images/widget_advertise_your_rental_1407.png" alt="" class="img-fluid">
+                        <div class="post_details" bis_skin_checked="1">
+                            <a href="property-details.html">
+                                <h1>Billal Mohammad</h1>
+                                <h2>Sheltech Properties</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="phone_content">
+                        <h6>Don't forget to mention the property reference <strong>BMB-AMWAJ 4-2BR</strong> when you
+                            call.</h6>
+                        <a href="tel:+8801210000000" class="btn btn-primary d-block w-100">+8801210000000</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- email Modal -->
+    <div class="modal fade" id="email_modal" tabindex="-1" aria-labelledby="email_modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="email_modalLabel">Inquire about this ad</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modla_item">
+                        <img src="./images/widget_advertise_your_rental_1407.png" alt="" class="img-fluid">
+                        <div class="post_details" bis_skin_checked="1">
+                            <a href="property-details.html">
+                                <h1>2,00,000TK <span>Monthly</span></h1>
+                                <h2>Apartment</h2>
+                                <div class="details_feature" bis_skin_checked="1">
+                                    <ol>
+                                        <li>
+                                            <i class="fa-solid fa-bed"></i>
+                                            <span>2 Beds</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-bath"></i>
+                                            <span>2 Baths</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-sharp fa-regular fa-building"></i>
+                                            <span>8,000 sqft</span>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="details_location" bis_skin_checked="1">
+                                    <i class="fa-sharp fa-regular fa-location-dot"></i>
+                                    <p>Dhaka, Dhaka Devision, Bangladesh</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <form action="" class="qurey_frm">
+                        <div class="form-group   mb-3">
+                            <textarea type="text" class="form-control" rows="6" cols="10" id="floatingInput"
+                                placeholder="">Hello! I am interested in [Dhaka,Dhaka,Bangladesh]</textarea>
+                        </div>
+                        <div class="form-group mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+                        </div>
+                        <div class="form-group mb-3">
+                            <input type="number" class="form-control" id="floatingInput" placeholder="Phone">
+                        </div>
+                        <div class="form-group mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+                        </div>
+                        <button class="btn btn-primary w-100" type="submit">Inquire Now</button>
+                    </form>
+                    <div class="privay_check">
+                        <p>By clicking on 'inquire Now', I agree to the </p>
+                        <p><a href="#">Terms & Conditins </a> and <a href="#">Privacy policy.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script src="/js/wow.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".imageSlider", {
+            cssMode: true,
+            navigation: {
+                nextEl: ".small_nxt",
+                prevEl: ".small_prev",
+            },
+            pagination: {
+                el: ".small_dot",
+            },
+            mousewheel: true,
+            keyboard: true,
+        });
+    </script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".price_range .title_box").click(function () {
+                $(this).siblings(".filter_input").toggleClass("d-block");
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
