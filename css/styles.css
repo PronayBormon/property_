@@ -939,7 +939,7 @@ input:focus {
 
 .post_filter {
     position: sticky;
-    top: 0;
+    top: 3px;
     background: #fff;
     z-index: 9;
     padding: 0px 40px;
@@ -947,19 +947,19 @@ input:focus {
 
 .filter_container {
 
-    display: flex;
+display: flex;
 
-    border: 1px solid #cdcdcd;
+border: 1px solid #cdcdcd;
 
-    padding: 10px;
+padding: 10px;
 
-    border-radius: 10px;
+border-radius: 10px;
 
-    display: grid;
+display: grid;
 
-    grid-template-columns: repeat(6, 6fr);
+grid-template-columns: repeat(6, 6fr);
 
-    box-shadow: 2px 3px 5px 3px #ededed;
+box-shadow: 2px 3px 5px 3px #0000000f;
 }
 
 .porpuse {

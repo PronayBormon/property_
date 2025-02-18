@@ -22,7 +22,7 @@
 <body>
 
     <!-- navbar part start here  -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="wow fadeIn navbar navbar-expand-lg">
         <div class="container-fluid py-0 ps-0" style="justify-content: space-between;">
             <div class="menu_part ps-3 d-none d-lg-block">
                 <a class=" d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown"
@@ -143,7 +143,7 @@
             <div class="row">
                 <div class="col-md-6 m-auto">
                     <div class="ads_container">
-                        <img src="./images/web_leaderboard_970x250.jpg" alt="" class="img-fluid">
+                        <img src="./images/web_leaderboard_970x250.jpg" alt="" class="wow fadeIn img-fluid">
                     </div>
                 </div>
             </div>
@@ -163,15 +163,15 @@
                             <input type="text" placeholder="Enter location" class="form-control search_input">
                         </div>
                         <div class="filters_buttons">
-                            <button type="button" class="btn_filter" data-bs-toggle="offcanvas" data-bs-target="#rent"
+                            <button type="button" class="wow fadeIn btn_filter" data-bs-toggle="offcanvas" data-bs-target="#rent"
                                 aria-controls="rent"><span>Rent</span><i class="fa-solid fa-chevron-down"></i></button>
-                            <button type="button" class="btn_filter" data-bs-toggle="offcanvas" data-bs-target="#Type"
+                            <button type="button" class="wow fadeIn btn_filter" data-bs-toggle="offcanvas" data-bs-target="#Type"
                                 aria-controls="rent"><span>All Residential</span><i
                                     class="fa-solid fa-chevron-down"></i></button>
-                            <button type="button" class="btn_filter" data-bs-toggle="offcanvas" data-bs-target="#price"
+                            <button type="button" class="wow fadeIn btn_filter" data-bs-toggle="offcanvas" data-bs-target="#price"
                                 aria-controls="rent"><span>Price Range</span> <i
                                     class="fa-solid fa-chevron-down"></i></button>
-                            <button type="button" class="btn_filter" data-bs-toggle="offcanvas" data-bs-target="#beds"
+                            <button type="button" class="wow fadeIn btn_filter" data-bs-toggle="offcanvas" data-bs-target="#beds"
                                 aria-controls="rent"><span>Beds</span> <i class="fa-solid fa-chevron-down"></i></button>
                         </div>
                     </div>
@@ -182,7 +182,7 @@
                             <!-- Purpose -->
                             <div class="porpuse">
                                 <div class="c_dropdown">
-                                    <div class="input-group">
+                                    <div class="wow fadeIn input-group">
                                         <label for="">Purpose</label>
                                         <select name="Purpose" id="">
                                             <option value="rent">Rent</option>
@@ -195,7 +195,7 @@
 
                             <!-- Location start here  -->
                             <div class="f_location">
-                                <div class="input-group">
+                                <div class="wow fadeIn input-group">
                                     <label for="">Purpose</label>
                                     <input type="text" placeholder="Search Location">
                                     <ul class="location_list">
@@ -211,7 +211,7 @@
 
                             <!-- Property type  -->
                             <div class="property_type">
-                                <div class="input-group">
+                                <div class="wow fadeIn input-group">
                                     <label for="">Property Type</label>
                                     <select name="" id="">
                                         <option value="">Residential</option>
@@ -224,7 +224,7 @@
 
                             <!-- price range start  -->
                             <div class="price_range">
-                                <div class="title_box">
+                                <div class="wow fadeIn title_box">
                                     <div class="filter_title">
                                         <h6>Price Rnage</h6>
                                         <i class="fa-solid fa-chevron-down"></i>
@@ -244,14 +244,14 @@
                                     </div>
                                     <div class="filter_footer">
                                         <button class="btn btn-default">Clear</button>
-                                        <button class="btn btn-primary">Show</button>
+                                        <button class="btn btn-primary">Apply</button>
                                     </div>
                                 </div>
                             </div>
                             <!-- price range end  -->
 
                             <!-- beds start  -->
-                            <div class="filter_beds">
+                            <div class="wow fadeIn filter_beds">
                                 <label for="">Beds</label>
                                 <select name="" id="">
                                     <option value="">Studio</option>
@@ -268,7 +268,7 @@
                             <!-- beds end  -->
 
                             <!-- filters button  -->
-                            <div class="filters_btns">
+                            <div class="wow fadeIn filters_btns">
                                 <button class="btn btn-primary">Apply Filters</button>
                             </div>
                             <!-- filters buttons end  -->
@@ -303,17 +303,17 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-9">
-                    <h5>Properties for rent (2,000)</h5>
+                    <h5 class="wow fadeIn">Properties for rent (2,000)</h5>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="mb_filter" style="max-width: 60%;">
                             <div class="filters_buttons">
-                                <button type="button" class="btn_filter active"><span>All</span></button>
-                                <button type="button" class="btn_filter"><span>Furnished</span></button>
-                                <button type="button" class="btn_filter"><span>Unfurnished</span></button>
+                                <button type="button" class="wow fadeIn btn_filter active"><span>All</span></button>
+                                <button type="button" class="wow fadeIn btn_filter"><span>Furnished</span></button>
+                                <button type="button" class="wow fadeIn btn_filter"><span>Unfurnished</span></button>
                             </div>
                         </div>
-                        <div class="d-md-flex justify-content-beteen align-items-center">
-                            <h6 class="m-0 me-2 text-nowrap ps-2">Short by:</h6>
+                        <div class="d-md-flex justify-content-beteen align-items-center bg-white ps-2">
+                            <h6 class="wow fadeIn m-0 me-2 d-none d-lg-block text-nowrap ps-2">Short by:</h6>
                             <select name="" id="" class="form-control" style="min-width: 80px;">
                                 <option value="">Accending</option>
                                 <option value="">Descending</option>
@@ -334,9 +334,10 @@
             <div class="row">
                 <div class="col-md-9">
                     <div class="post_list_container">
+                        <!-- item 1 -->
                         <div class="post_box" class="details_link">
                             
-                            <div class="swiper imageSlider">
+                            <div  class="wow fadeIn swiper imageSlider">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <img src="./images/widget_advertise_your_rental_1407.png" alt=""
@@ -359,57 +360,57 @@
                                 <div class="swiper-pagination small_dot"></div>
                             </div>
                             <div class="post_details">
-                                <span class="premium">Premium</span>
-                                <a href="property-details.html">
-                                    <h1>2,00,000TK <span>Monthly</span></h1>
-                                    <h2>Apartment</h2>
+                                <span  class="wow fadeIn premium">Premium</span>
+                                <a href="property-details.html" >
+                                    <h1 class="wow fadeIn">2,00,000TK <span>Monthly</span></h1>
+                                    <h2 class="wow fadeIn">Apartment</h2>
                                     <div class="details_feature">
                                         <ol>
-                                            <li>
+                                            <li class="wow fadeIn">
                                                 <i class="fa-solid fa-bed"></i>
                                                 <span>2 Beds</span>
                                             </li>
-                                            <li>
+                                            <li class="wow fadeIn">
                                                 <i class="fa-solid fa-bath"></i>
                                                 <span>2 Baths</span>
                                             </li>
-                                            <li>
+                                            <li class="wow fadeIn">
                                                 <i class="fa-sharp fa-regular fa-building"></i>
                                                 <span>8,000 sqft</span>
                                             </li>
                                         </ol>
                                         <ul>
-                                            <li>Furnished</li>
-                                            <li>Family Oriented</li>
-                                            <li>Modern Community</li>
+                                            <li class="wow fadeIn">Furnished</li>
+                                            <li class="wow fadeIn">Family Oriented</li>
+                                            <li class="wow fadeIn">Modern Community</li>
                                         </ul>
                                     </div>
-                                    <div class="details_location">
+                                    <div  class="wow fadeIn details_location">
                                         <i class="fa-sharp fa-regular fa-location-dot"></i>
-                                        <p>Dhaka, Dhaka Devision, Bangladesh</p>
+                                        <p class="wow fadeIn">Dhaka, Dhaka Devision, Bangladesh</p>
                                     </div>
                                 </a>
                                 <div class="contact_buttons">
-                                    <a href="#" class="btn_email"  data-bs-toggle="modal" data-bs-target="#email_modal">
+                                    <a href="#"  class="wow fadeIn btn_email"  data-bs-toggle="modal" data-bs-target="#email_modal">
                                         <i class="fa-regular fa-envelope"></i>
                                         <span>Email</span>
                                     </a>
-                                    <a href="#" class="btn_phone"  data-bs-toggle="modal" data-bs-target="#phone_modal">
+                                    <a href="#"  class="wow fadeIn btn_phone"  data-bs-toggle="modal" data-bs-target="#phone_modal">
                                         <i class="fa-regular fa-phone"></i>
                                         <span>Call</span>
                                     </a>
-                                    <a href="https//wa.me/+880000000000" class="btn_whatsapp">
+                                    <a href="https//wa.me/+880000000000"  class="wow fadeIn btn_whatsapp">
                                         <i class="fa-brands fa-whatsapp"></i>
                                         <span>WhatsApp</span>
                                     </a>
-                                    <img src="./images/image(1).jpg" alt="" class="img-fluid">
+                                    <img src="./images/image(1).jpg" alt=""  class="wow fadeIn img-fluid">
                                 </div>
                             </div>
                         </div>
-
+                        <!-- item 2 -->
                         <div class="post_box" class="details_link">
                             <div class="swiper imageSlider">
-                                <div class="swiper-wrapper">
+                                <div  class="wow fadeIn swiper-wrapper">
                                     <div class="swiper-slide">
                                         <img src="./images/widget_discover_home_ownership_1407.jpg" alt=""
                                             class="img-fluid">
@@ -423,61 +424,70 @@
                                             class="img-fluid">
                                     </div>
                                 </div>
-                                <span class="v_badge"><i class="fa-regular fa-check-circle"></i> Verified</span>
-                                <button type="button" class="btn_fav btn btn-primary"><i class="fa-regular fa-heart"></i></button>
-                                <strong class="img_count"><i class="fa-solid fa-image"></i> 1/5</strong>
+                                <span  class="wow fadeIn v_badge"><i class="fa-regular fa-check-circle"></i> Verified</span>
+                                <button type="button"  class="wow fadeIn btn_fav btn btn-primary"><i class="fa-regular fa-heart"></i></button>
+                                <strong  class="wow fadeIn img_count"><i class="fa-solid fa-image"></i> 1/5</strong>
 
                                 <div class="swiper-button-next small_nxt"></div>
                                 <div class="swiper-button-prev small_prev"></div>
                                 <div class="swiper-pagination small_dot"></div>
                             </div>
                             <div class="post_details">
-                                <span class="premium">Premium</span>
+                                <span  class="wow fadeIn premium">Premium</span>
                                 <a href="property-details.html">
-                                    <h1>2,00,000TK <span>Monthly</span></h1>
-                                    <h2>Apartment</h2>
+                                    <h1  class="wow fadeIn">2,00,000TK <span>Monthly</span></h1>
+                                    <h2 class="wow fadeIn">Apartment</h2>
                                     <div class="details_feature">
                                         <ol>
-                                            <li>
+                                            <li class="wow fadeIn">
                                                 <i class="fa-solid fa-bed"></i>
                                                 <span>2 Beds</span>
                                             </li>
-                                            <li>
+                                            <li class="wow fadeIn">
                                                 <i class="fa-solid fa-bath"></i>
                                                 <span>2 Baths</span>
                                             </li>
-                                            <li>
+                                            <li class="wow fadeIn">
                                                 <i class="fa-sharp fa-regular fa-building"></i>
                                                 <span>8,000 sqft</span>
                                             </li>
                                         </ol>
                                         <ul>
-                                            <li>Furnished</li>
-                                            <li>Family Oriented</li>
-                                            <li>Modern Community</li>
+                                            <li class="wow fadeIn">Furnished</li>
+                                            <li class="wow fadeIn">Family Oriented</li>
+                                            <li class="wow fadeIn">Modern Community</li>
                                         </ul>
                                     </div>
                                     <div class="details_location">
                                         <i class="fa-sharp fa-regular fa-location-dot"></i>
-                                        <p>Dhaka, Dhaka Devision, Bangladesh</p>
+                                        <p class="wow fadeIn">Dhaka, Dhaka Devision, Bangladesh</p>
                                     </div>
                                 </a>
                                 <div class="contact_buttons">
-                                    <a href="#" class="btn_email"  data-bs-toggle="modal" data-bs-target="#email_modal">
+                                    <a href="#"  class="wow fadeIn btn_email"  data-bs-toggle="modal" data-bs-target="#email_modal">
                                         <i class="fa-regular fa-envelope"></i>
                                         <span>Email</span>
                                     </a>
-                                    <a href="#" class="btn_phone"  data-bs-toggle="modal" data-bs-target="#phone_modal">
+                                    <a href="#"  class="wow fadeIn btn_phone"  data-bs-toggle="modal" data-bs-target="#phone_modal">
                                         <i class="fa-regular fa-phone"></i>
                                         <span>Call</span>
                                     </a>
-                                    <a href="https//wa.me/+880000000000" class="btn_whatsapp">
+                                    <a href="https//wa.me/+880000000000"  class="wow fadeIn btn_whatsapp">
                                         <i class="fa-brands fa-whatsapp"></i>
                                         <span>WhatsApp</span>
                                     </a>
                                     <img src="./images/image(1).jpg" alt="" class="img-fluid">
                                 </div>
                             </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="sticky_sidebar">
+                        <div class="ads_img">
+                            <a href="#"><img src="./images/ads/ads(3).png" alt=""  class="wow fadeIn img-fluid"></a>
                         </div>
                     </div>
                 </div>
