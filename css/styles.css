@@ -2222,6 +2222,9 @@ input:focus {
     .slider-next::after,.slider-prev::after {
         font-size: 12px;
     }
+    .details_sections_title p {
+        margin-bottom: 0px;
+    }
 }
 @media(max-width: 320px){
     .menu_part {

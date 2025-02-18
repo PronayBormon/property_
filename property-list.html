@@ -390,15 +390,15 @@
                                     </div>
                                 </a>
                                 <div class="contact_buttons">
-                                    <a href="#" class="btn_email">
+                                    <a href="#" class="btn_email"  data-bs-toggle="modal" data-bs-target="#email_modal">
                                         <i class="fa-regular fa-envelope"></i>
                                         <span>Email</span>
                                     </a>
-                                    <a href="#" class="btn_phone">
+                                    <a href="#" class="btn_phone"  data-bs-toggle="modal" data-bs-target="#phone_modal">
                                         <i class="fa-regular fa-phone"></i>
                                         <span>Call</span>
                                     </a>
-                                    <a href="#" class="btn_whatsapp">
+                                    <a href="https//wa.me/+880000000000" class="btn_whatsapp">
                                         <i class="fa-brands fa-whatsapp"></i>
                                         <span>WhatsApp</span>
                                     </a>
@@ -463,15 +463,15 @@
                                     </div>
                                 </a>
                                 <div class="contact_buttons">
-                                    <a href="#" class="btn_email">
+                                    <a href="#" class="btn_email"  data-bs-toggle="modal" data-bs-target="#email_modal">
                                         <i class="fa-regular fa-envelope"></i>
                                         <span>Email</span>
                                     </a>
-                                    <a href="#" class="btn_phone">
+                                    <a href="#" class="btn_phone"  data-bs-toggle="modal" data-bs-target="#phone_modal">
                                         <i class="fa-regular fa-phone"></i>
                                         <span>Call</span>
                                     </a>
-                                    <a href="#" class="btn_whatsapp">
+                                    <a href="https//wa.me/+880000000000" class="btn_whatsapp">
                                         <i class="fa-brands fa-whatsapp"></i>
                                         <span>WhatsApp</span>
                                     </a>
@@ -674,6 +674,100 @@
         </div>
     </footer>
     <!-- footer section end here  -->
+
+    
+    <!-- phone modal  -->
+
+    <div class="modal fade" id="phone_modal" tabindex="-1" aria-labelledby="phone_modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-0">
+                <div class="modal-header align-items-start">
+
+                    <div class="modla_item" style="background-color: #fff; padding: 0;">
+                        <img src="./images/widget_advertise_your_rental_1407.png" alt="" class="img-fluid">
+                        <div class="post_details" bis_skin_checked="1">
+                            <a href="property-details.html">
+                                <h1>Billal Mohammad</h1>
+                                <h2>Sheltech Properties</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="phone_content">
+                        <h6>Don't forget to mention the property reference <strong>BMB-AMWAJ 4-2BR</strong> when you
+                            call.</h6>
+                        <a href="tel:+8801210000000" class="btn btn-primary d-block w-100">+8801210000000</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- email Modal -->
+    <div class="modal fade" id="email_modal" tabindex="-1" aria-labelledby="email_modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="email_modalLabel">Inquire about this ad</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modla_item">
+                        <img src="./images/widget_advertise_your_rental_1407.png" alt="" class="img-fluid">
+                        <div class="post_details" bis_skin_checked="1">
+                            <a href="property-details.html">
+                                <h1>2,00,000TK <span>Monthly</span></h1>
+                                <h2>Apartment</h2>
+                                <div class="details_feature" bis_skin_checked="1">
+                                    <ol>
+                                        <li>
+                                            <i class="fa-solid fa-bed"></i>
+                                            <span>2 Beds</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-bath"></i>
+                                            <span>2 Baths</span>
+                                        </li>
+                                        <li>
+                                            <i class="fa-sharp fa-regular fa-building"></i>
+                                            <span>8,000 sqft</span>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="details_location" bis_skin_checked="1">
+                                    <i class="fa-sharp fa-regular fa-location-dot"></i>
+                                    <p>Dhaka, Dhaka Devision, Bangladesh</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <form action="" class="qurey_frm">
+                        <div class="form-group   mb-3">
+                            <textarea type="text" class="form-control" rows="6" cols="10" id="floatingInput"
+                                placeholder="">Hello! I am interested in [Dhaka,Dhaka,Bangladesh]</textarea>
+                        </div>
+                        <div class="form-group mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+                        </div>
+                        <div class="form-group mb-3">
+                            <input type="number" class="form-control" id="floatingInput" placeholder="Phone">
+                        </div>
+                        <div class="form-group mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+                        </div>
+                        <button class="btn btn-primary w-100" type="submit">Inquire Now</button>
+                    </form>
+                    <div class="privay_check">
+                        <p>By clicking on 'inquire Now', I agree to the </p>
+                        <p><a href="#">Terms & Conditins </a> and <a href="#">Privacy policy.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
